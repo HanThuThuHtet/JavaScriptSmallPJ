@@ -1,0 +1,79 @@
+body{
+
+	background: #f0f0f0;
+	font-size: 20px;
+	line-height: 50px;
+
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	width: 100%;
+	/*background: #f1f1f1;*/
+	background: skyblue;
+	text-align: center;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+
+
+}
+
+.progress{
+	width: 100%;
+	height: 5px;
+	background: #bbb;
+}
+
+.progress-bar{
+	height: 5px;
+	width: 0%;
+	background-color: forestgreen;
+
+}
+
+.content{
+	width: 80%;
+	padding: 50px 0;
+	margin: 100px auto;
+
+	background: linear-gradient(skyblue,pink);
+}
+
+
+/*@media print{*/
+
+	/*.noprint{
+		display: none;
+	}*/
+
+	/**{
+		visibility: hidden;
+	}
+
+	.printarea *{
+		visibility: visible;
+	}
+
+	.header{
+		position: static;
+	}
+
+	.pagebreak{
+		page-break-after: always;  
+	}
+}
+
+
+@page{*/
+
+	/*size: portrait;*/
+	/*size: auto;*/
+	/*size: a4 landscape;
+	size: 4in 6in;
+	margin: 0;
+
+}*/
+

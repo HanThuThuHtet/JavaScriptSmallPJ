@@ -1,0 +1,29 @@
+body{
+	color: blue;
+}
+
+.print-btn{
+	display: none;
+}
+
+.header{
+	position: static;
+
+	-webkit-print-color-adjust: exact;
+}
+
+.content{
+	-webkit-print-color-adjust: exact;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+@page{
+
+	/*size: portrait;*/
+	/*size: auto;*/
+	size: a4 landscape;
+	size: 4in 6in;
+	margin: 0;
+
+}
