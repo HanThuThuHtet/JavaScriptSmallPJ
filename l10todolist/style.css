@@ -1,0 +1,103 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+.container{
+	border: 1px solid #e2ded3;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+h3{
+	color: #aa530e;
+	font-size: 20px;
+
+
+	margin: 0;
+	padding: 0;
+
+
+	border-bottom: 1px dashed #4e413b;
+	line-height: 70px;
+}
+
+small{
+	color: #083836;
+	text-align: right;
+
+	margin-top: 10px;
+	display: block;
+}
+
+.form{
+	margin-top: 20px;
+}
+
+.form-control{
+	width: 100%;
+	font-size: 15px;
+	border: 0;
+
+	border-bottom: 2px solid orange;
+	padding: 10px;
+
+	transition: all 0.8s;
+}
+
+.form-control:focus{
+	outline: none;
+
+	border-bottom: 2px solid green;
+}
+
+
+.list-group{
+	height: 300px;
+	list-style: none;
+
+	margin: 0;
+	padding: 0;
+
+	overflow-y: scroll;
+}
+
+
+.list-group li{
+	background: #fff8d2;
+	font-size: 15px;
+
+	padding: 15px;
+	border: 1px solid #fcf5b8;
+
+
+	margin-top: -1px;
+	cursor: pointer;
+
+
+}
+
+.list-group li:hover{
+	background: #f5c16c;
+}
+
+.list-group li.done{
+	color: #777;
+	background: #daec8b;
+	border: 1px solid #daec8b;
+	font-style: italic;
+	text-decoration: line-through;
+
+}
+
+
+.list-group li.done::after{
+	content: "\f00c";
+	font-family: FontAwesome;
+	float: right;
+}
