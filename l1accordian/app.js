@@ -20,8 +20,9 @@ for(var x = 0 ; x < getacctitles.length ; x++){
 		if(getcontent.style.height){
 
 			getcontent.style.height = null; //beware cant be set 0
-		}else{
-			console.log(getcontent.scrollHeight);
+		}
+		else{
+			// console.log(getcontent.scrollHeight);
 			getcontent.style.height = getcontent.scrollHeight + "px";
 		}
 
